@@ -53,6 +53,7 @@ class BankService:
                 detail="Insufficient balance"
             )
 
+
         account.balance -= amount
 
         return account
