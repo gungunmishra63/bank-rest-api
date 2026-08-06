@@ -7,7 +7,7 @@ class AccountCreate(BaseModel):
 
 class Transaction(BaseModel):
     amount: float = Field(..., gt=0)
-
+ 
 class Account(BaseModel):
     account_number: str
     account_holder_name: str
